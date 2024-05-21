@@ -1,0 +1,13 @@
+{% extends 'store.html' %}
+ 
+
+ 
+<form action="/add_client" method="POST" class="form-contact">
+    <p><label>Id: </label> <input type="text" name="id" value="" requied />
+    <p><label>Город:</label> <input type="text" name="city" value="" requied />
+    <p><label>Улица:</label> <input type="text" name="street" value="" requied />
+    <p><label>Дом:</label> <input type="text" name="house" value="" requied />
+<p><input type="submit" value="Добавить" />
+</form>
+{% endblock %}
+

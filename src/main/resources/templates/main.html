@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <style>
+
+        nav {
+          height: 130px;
+          background-color: #eb7979;
+          display: flex;
+          margin-bottom: 20px;
+        }
+
+        nav ul {
+          padding: 10px;
+          list-style-type: none;
+          flex: 2;
+          display: flex;
+        }
+        .home {
+          padding: 25px;
+        }
+        nav li {
+          display: inline;
+          text-align: center;
+          flex: 1;
+        }
+
+        nav a {
+          display: inline-block;
+          font-size: 24px;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #3b0606;
+
+        }
+
+        h1, h2{
+        font-family: 'Sonsie One', cursive;
+        color: #3b0606;
+        }
+
+        p, input, li {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #2a2a2a;
+
+        }
+
+        h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: #3b0606;
+        text-shadow: 2px 2px 10px rgb(94, 9, 9);
+        }
+        h2 {
+        font-size: 2rem;
+        text-align: center;
+        color: 4d1111;
+        }
+        table {
+        color: #000000;
+        }
+
+
+    </style>
+    <title>JDBC:Главная</title>
+</head>
+<body>
+<h1>Главная</h1>
+
+<nav>
+    <ul>
+        <li><a href="/store">Магазины</a></li>
+        <li><a href="/book">Книги</a></li>
+        <li><a href="/after18">Ограничение на книги</a></li>
+        <li><a href="/avtor">Авторы</a></li>
+    </ul>
+</nav>
+<nav>
+    <ul>
+        <li class="home"><a href="/">Главная</a></li>
+
+    </ul>
+</nav>
+
+</body>
+</html>
+
